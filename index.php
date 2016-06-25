@@ -2,12 +2,10 @@
 $pageTitle = "Recall These Thoughts";
 require_once("config.php");
 include("header.php");
-
  ?>
 <div class="blog">
 <?php
 // First define a comparison function to be used as a callback
-echo "test";
 // $posts = file_get_contents("posts/2016/03/25/stop-embarrassing-yourself-presentations.php");
 // echo $posts;
 //

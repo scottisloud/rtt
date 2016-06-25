@@ -25,8 +25,8 @@ require_once("config.php"); ?>
 						<a href="<?php echo BASE_URL?>"><li>Blog</li></a>
 						<a href="<?php echo BASE_URL . "cv.php"; ?>"><li>Curriculum Vitae</li></a>
 						<a href="<?php echo BASE_URL . "publications.php"; ?>"><li>Publications</li></a>
-						<a href="<?php echo BASE_URL . "links.php"?>; "><li>Links</li></a>
-						<a href="<?php echo BASE_URL . "about.php"?>; "><li>About</li></a>
+						<a href="<?php echo BASE_URL . "links.php";?> "><li>Links</li></a>
+						<a href="<?php echo BASE_URL . "about.php";?> "><li>About</li></a>
 					</ul>
 				</div>
 <!--Menu for mobile/small displays-->
