@@ -1,7 +1,8 @@
 <?php
+$pageTitle = "Recall These Thoughts";
 require_once("config.php");
 include("header.php");
-$pageTitle = "Recall These Thoughts";
+
  ?>
 <div class="blog">
 <?php

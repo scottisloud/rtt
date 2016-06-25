@@ -19,7 +19,8 @@ require_once("config.php"); ?>
 				<a href="<?php echo BASE_URL; ?>"><img class="logo" src="<?php echo BASE_URL . "img/logo.png"; ?>" alt="Recall These Thoughts"></a>
 				<p class="site_title">Recall These Thoughts</p>
 				<p class="site_subtitle">Food, Food Safety, and other nonsense</p>
-				<div class="menu"> <!--Menu for desktop -->
+<!--Menu for desktop -->
+				<div class="menu">
 					<ul>
 						<a href="<?php echo BASE_URL?>"><li>Blog</li></a>
 						<a href="<?php echo BASE_URL . "cv.php"; ?>"><li>Curriculum Vitae</li></a>
@@ -28,7 +29,8 @@ require_once("config.php"); ?>
 						<a href="<?php echo BASE_URL . "about.php"?>; "><li>About</li></a>
 					</ul>
 				</div>
-				<div class="dropdown"> <!--Menu for mobile/small displays-->
+<!--Menu for mobile/small displays-->
+				<div class="dropdown">
 					<div class="dropbutton"><a href="javascript:window.location.reload(true)"> <!--php script to display page title unless page title is "Recall These Thoughts"–then display "blog"-->
 						<?php
 					  	if ($pageTitle !== "Recall These Thoughts") {
