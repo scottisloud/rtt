@@ -1,7 +1,6 @@
 <?php
 $pageTitle = "Recall These Thoughts";
-require_once("config.php");
-include("header.php");
+include("inc/header.php");
  ?>
 <div class="blog">
 

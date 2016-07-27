@@ -3,8 +3,8 @@ require_once("config.php"); ?>
 <html>
 	<head>
 	<title><?php echo $pageTitle; ?></title>
-	<link rel="stylesheet" href="<?php echo BASE_URL . "css/normalize.css";?>" type="text/css">
-	<link rel="stylesheet" href="<?php echo BASE_URL . "css/style.css";?>" type="text/css">
+	<link rel="stylesheet" href="<?php echo ROOT_PATH . '/css/normalize.css' ;?>" type="text/css">
+	<link rel="stylesheet" href="<?php echo ROOT_PATH . '/css/style.css';?>" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Hind:400,300|Raleway:400,500,700' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="favicon.ico">
 	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>

@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Publications";
 require_once("config.php");
-include("header.php"); ?>
+include("inc/header.php"); ?>
 			<div id="publications">
 				<h2 class="articles">Peer-reviewed Journal Articles</h2>
 				<ul class="articles">

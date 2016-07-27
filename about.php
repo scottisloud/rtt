@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "About";
 require_once("config.php");
-include("header.php"); ?>
+include("inc/header.php"); ?>
 
 <div class="about">
 	<img src="img/avatar.jpg" class="avatar">
